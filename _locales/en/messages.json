@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Unofficial Netflix Party for Firefox",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Watch Netflix remotely with friends in Firefox",
+    "description": "Extension description"
+  }
+}
