@@ -171,13 +171,3 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 //     }]);
 //   });
 // });
-
-chrome.runtime.onInstalled.addListener(function (details) {
-  chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-    chrome.pageAction.show(tabId);
-  });
-
-  chrome.tabs.onCreated.addListener(function (tab) {
-    chrome.pageAction.show(tab.id);
-  });
-});

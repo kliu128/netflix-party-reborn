@@ -7,7 +7,6 @@
   "default_locale": "en",
   "permissions": [
       "activeTab",
-      "declarativeContent",
       "tabs",
       "storage"
   ],
@@ -18,7 +17,8 @@
       "38": "icon.png"
     },
     "default_title": "__MSG_extName__",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "show_matches": ["*://www.netflix.com/watch/*"]
   },
   "background": {
     "scripts": ["background.js"]
