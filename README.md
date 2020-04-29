@@ -1,3 +1,9 @@
+# Netflix Party Reborn [Firefox]
+
+Gets Netflix Party working on Firefox browsers.
+
+Forked from https://addons.mozilla.org/en-US/firefox/addon/netflix-party-for-firefox/?src=search.
+
 ## License
 
 Copyright (c) 2018 Shaurya Jain
